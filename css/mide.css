@@ -1,0 +1,67 @@
+
+
+.working-exprence{
+    position: relative;
+    top: 30vh;
+
+}
+
+.hr{
+    border: 1px solid rgb(11, 94, 77) ;
+}
+
+.vertical-line{
+    display: grid;
+    /* width: 100vw; */
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.vertical-line1{
+     width: 2px;
+     height: 10vh;
+     background-color: black;
+     margin: 0px 12vw;
+
+}
+
+.vertical-line2{
+     width: 2px;
+     height: 15vh;
+     background-color: black;
+     margin: 0px 12vw;
+}
+.vertical-line3{
+     width: 3px;
+     height: 15vh;
+     background-color: black;
+     margin: 0px 12vw;
+
+}
+.vertical-line4{
+     width: 2px;
+     height: 10vh;
+     background-color: black;
+     margin: 0px 12vw;
+
+}
+.text1{
+    position: relative;
+    top: 10vh;
+    right: 2vw;
+}
+.text2{
+    position: relative;
+    top: 15vh;
+    right: 2vw;
+    width: 10vw;
+}
+.text3{
+    position: relative;
+    top: 15vh;
+    right: 2vw;
+}
+.text4{
+    position: relative;
+    top: 10vh;
+    right: 2vw;
+}
