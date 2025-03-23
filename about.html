@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <style>
+
+        .contaner{
+            /* background-color: green; */
+            color: white;
+            height: 80vh;
+            width: 50vw;
+            position: relative;
+            left: 25vw;  
+            top: 10vh;
+        
+        }
+
+
+        .titlebox{
+            width:40vw;
+            height: 70vh;
+            background-color: pink;
+            border-radius: 10px;
+            padding: 10px 20px;
+            position: relative;
+            box-shadow: 30px 30px 30px rgb(143, 131, 131);
+
+
+        }
+        .titlebox::after{
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: 0;
+            z-index: 2;
+            height: 80%;
+            box-sizing:border-box;
+            border-style: solid;
+            border-color:  transparent transparent transparent pink;
+            border-width: 40px 40px 40px 70px ;
+            filter: drop-shadow(5px 0 9px black);
+            transition: filter .5s;
+        }
+
+        .titlebox:hover:after{
+            filter: drop-shadow(10px 0 10px  rgb(86, 71, 71));
+        }
+        .titlebox:hover .content{
+            left: 80px;
+        }
+        .content{
+            height: 60vh;
+            width: 40vw;
+            color: black;
+            /* word-wrap: wrap; */
+            /* text-wrap: wrap; */
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 5px 5px 30px rgb(143, 131, 131);
+            position: relative;
+            left: 10px;
+            transition: left 1s;
+
+        }
+        h3{
+            position: relative;
+            left:15vw ;
+        }
+
+
+    </style>
+
+    <div class="contaner">
+        <div class="titlebox">
+            <div class="content">
+                <span class="layer">
+          <h3>Title</h3>
+                   <pre>
+Name : Shubham Thakre 
+<br><br>
+collage : Suryodaya collage Of Engineering 
+          Nagpur 
+<br><br>
+location : Nagpur Maharashtra 
+<br><br>
+
+                    Thank you
+                   </pre>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

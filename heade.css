@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(254, 210, 129);
+    background-image: url(../image/bc.jpg);
+    background-size: cover; 
+    width: 100vw;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(248, 176, 41);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+
+}
+
+
+.contact-image{
+    height: 8vh;
+    background-color: blue;
+    border-radius: 10vh;
+    position: relative;
+    left: 5%;
+}
+
+
+.contact-image:hover {
+    background-color: #005f7a;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 10vh;
+    position: relative;
+    left: 50vw;
+    font-size: 22px;
+   
+}
